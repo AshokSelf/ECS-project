@@ -35,7 +35,7 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
       - name: Javs version
-        run: jave --version
+        run: java --version
       - name: Python version
         run: python --version
       - name: Docker version
