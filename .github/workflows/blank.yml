@@ -43,4 +43,4 @@ jobs:
       - name: Maven version
         run: mvn --version
       - name: Terraform version
-        run: terraform version
+        run: terraform --version
